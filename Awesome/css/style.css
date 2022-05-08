@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background: black;
+}
+
+.header_logo,
+.header_nav {
+    display: inline-block;
+}
+
+.nav_list__item {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.header_nav {
+    float: right;
+    margin: 30px;
+    }
+
+.nav_list__item a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.awesome {
+    padding: 50px 0 58px;
+}
+
+.line {
+    width: 170px;
+    height: 0;
+    border: 1px solid #EC7979;
+    margin: 0 auto
+}
+
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin: 40px 0 70px;
+    text-align: center;
+}
+.block_content_item h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    padding: 60px 60px 40px;
+    text-align: center;
+}
+
+.block_content_item__text p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+
+.block_content {
+    margin: 0 -15px
+}
+
+.block_content_item {
+    display: inline-block;
+    width: 370px;
+    margin: 0 13px;
+}
+
+.block_content_item__img {
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: 0 auto;
+    }
+
+.img1 {
+    padding: 9px 8px;
+}
+
+.img2 {
+    padding: 21px 12px;
+}
+
+.img3 {
+    padding: 14px 24px;
+}
+
